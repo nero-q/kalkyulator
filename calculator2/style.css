@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1a1a1a;
+    background-image: url('flat-lay-black-friday-assortment-black-background-with-copy-space.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.calculator {
+    background-color: rgba(51, 51, 51, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+.result {
+    width: 220px;
+    margin-bottom: 10px;
+    text-align: right;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #666;
+    border-radius: 5px;
+    background-color: #222;
+    color: #fff;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    margin: 5px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #444;
+    color: white;
+    transition: background-color 0.2s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+button:active {
+    background-color: #666;
+}
+
+button.clear {
+    background-color: #f44336;
+}
+
+button.equals {
+    background-color: #2196F3;
+}
+
+button.operation {
+    background-color: #4CAF50;
+}
+
+button.clear:hover {
+    background-color: #d32f2f;
+}
+
+button.equals:hover {
+    background-color: #1976D2;
+}
+
+button.operation:hover {
+    background-color: #388E3C;
+}
